@@ -24,7 +24,7 @@ void deletThree(string str) {
     int countDigits =0 ; 
     for (char chr : str) {
         if (isdigit(chr)) {
-            // Если символ - цифра, добавляем к результату (но не более трех цифр)
+            
             if (countDigits < 3) {
                 result += chr;
                 countDigits++;
